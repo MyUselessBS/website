@@ -1,0 +1,63 @@
+<!-- stupid fucking website -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MyUselessBS</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    height: 100%;
+    background: #ffffff;
+    color: #0a0a0a;
+    font-family: 'Syne', sans-serif;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 2.5rem;
+  }
+
+  .wordmark {
+    font-size: clamp(2.8rem, 8vw, 5.5rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: #0a0a0a;
+    line-height: 1;
+    user-select: none;
+  }
+
+  .btn {
+    display: inline-block;
+    background: #0a0a0a;
+    color: #ffffff;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.01em;
+    padding: 0.85rem 2rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.15s ease, transform 0.12s ease;
+  }
+
+  .btn:hover { opacity: 0.82; }
+  .btn:active { transform: scale(0.97); }
+</style>
+</head>
+<body>
+  <span class="wordmark">MyUselessBS</span>
+  <a class="btn" href="/fucking_github">our stupid fucking github</a>
+</body>
+</html>
